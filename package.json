@@ -1,11 +1,19 @@
 {
-  "name": "api_nodejs_with_dynamodb",
+  "name": "api-teste-dynamo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "node express dynamodb rest api",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.907.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  }
 }
